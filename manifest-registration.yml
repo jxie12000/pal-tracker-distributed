@@ -1,7 +1,7 @@
 applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
-  host: registration-pal-ml
+  host: registration-pal-ep
   memory: 1G
   instances: 1
   services:
